@@ -1,6 +1,6 @@
 import axios from "axios"
 const allinonestoreAPI = axios.create({
-  baseURL: "https://allinonestore-29435-prod.herokuapp.com",
+  baseURL: "https://allinonestore-29435.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
